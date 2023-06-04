@@ -121,7 +121,7 @@ or any implemented error
 ___
 
 ### POST /generate_data
-Randomly generates given number of data points for Sensor
+Randomly generates given number of data points for Sensor with 5 sec of interval between them
 
 **Parameters**
 
