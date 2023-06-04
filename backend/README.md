@@ -3,13 +3,13 @@
 These endpoints allow you to handle all influx sensor data.
 
 ## GET
- [/sensor/{sensor_id}](#get-/sensor/{sensor_id}) <br/>
- [/sensors](#get-/sensors) <br/>
- [/sensors/filter](#get-/sensors/filter) <br/>
+ [/sensor/{sensor_id}](https://github.com/PruthviThakor/SensorDataGraph/tree/main/backend#get-sensorsensor_id) <br/>
+ [/sensors](https://github.com/PruthviThakor/SensorDataGraph/edit/main/backend/README.md#get-sensors) <br/>
+ [/sensors/filter](https://github.com/PruthviThakor/SensorDataGraph/edit/main/backend/README.md#get-sensorsfilter) <br/>
 
 ## POST
- [/generate_data](#post-/generate_data) <br/>
-[/sensor/add](#post-/sensor/add) <br/>
+ [/generate_data](https://github.com/PruthviThakor/SensorDataGraph/edit/main/backend/README.md#post-generate_data) <br/>
+[/sensor/add](https://github.com/PruthviThakor/SensorDataGraph/edit/main/backend/README.md#post-sensoradd) <br/>
 ___
 
 ### GET /sensor/{sensor_id}
