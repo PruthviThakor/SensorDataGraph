@@ -82,7 +82,7 @@ function App() {
         headers: headers
       })
       .then((response) => {
-        console.log(response)
+
         if (response.status === 200) {
           return response.json()
         }
@@ -93,8 +93,6 @@ function App() {
         }
       })
       .then((json) => {
-        console.log("hi");
-        console.log(json);
         setData(json);
         setBarChartData({
           datasets: [
